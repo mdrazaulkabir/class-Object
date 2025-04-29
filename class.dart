@@ -1,3 +1,18 @@
+/*OOP In Dart:
+Object-oriented programming (OOP) is a programming method that uses objects to design 
+ and program applications.
+The main purpose of OOP is to break complex problems into smaller objects.
+
+Advantages:
+ *It is easy to understand and use.
+ *It makes the code easier to maintain, modify and debug.
+ *OOP is based on objects, which are data structures containing data and methods.
+
+*/
+
+
+
+
 /*What is Class:
 A class is a blueprint for creating objects.(একটি ক্লাস হল বস্তু তৈরির জন্য একটি নীলনকশা)
 like common noun.(like Person is class ,,this object person will be diffent type like: hasan, kabir,hakim but 
@@ -10,6 +25,8 @@ Key Points of Class:
  *The properties are also known as fields,variable, attributes, or data members.
  *The methods are also known as behaviors, or member functions.
 
+
+
 What is Object:
 Objects are created from templates called classes.(ক্লাস নামক টেমপ্লেট থেকে অবজেক্ট তৈরি করা হয়)
 
@@ -18,13 +35,15 @@ Objects are created from templates called classes.(ক্লাস নামক 
 
 void main(){
 
-// print("this is without class ");
-//   String name='kabir';
-//   int age=23;
-//   double cgp=3.9;
-//   print(name);
-//   print(age);
-//   print(cgp);
+/*
+  print("this is without class ");
+  String name='kabir';
+  int age=23;
+  double cgp=3.9;
+  print(name);
+  print(age);
+  print(cgp);
+ */
 
 
 // print('\nthis is the type of person class ');
@@ -37,7 +56,7 @@ void main(){
 //   print(_person._cgp);
 
 
-print("\nthis is hasan human class");
+  print("\nthis is hasan human class");
   Human hasan=Human();
   print('you are ${hasan.name='md hasan'}');
   print('you are ${hasan.age}');
@@ -53,7 +72,7 @@ print("\nthis is hasan human class");
   
 
 
-print("\n this is the hakim class");
+  print("\n this is the hakim class");
   Human hakim=Human();
   hakim.name="Md hakim";
   //hakim.color="Red";
