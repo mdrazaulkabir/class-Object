@@ -58,12 +58,15 @@ void main(){
 
   print("\nthis is hasan human class");
   Human hasan=Human();
+ 
+ //hakim obj we call display for print (we can use print both way in main function print and class )
   print("your name ${hasan.name='md hasan'}");
   print('your age ${hasan.age}');
   print('your cgp ${hasan.cgp}');
   print('your color ${hasan.color='white'}');
   print('your height ${hasan.height=6.1}');
   print("your department ${Human.department}");
+
   if (hasan.name!=null){
     hasan.moving();
   }
@@ -73,23 +76,19 @@ void main(){
   
 
 
-  // print("\n this is the hakim class");
-  // Human hakim=Human();
-  // hakim.name="Md hakim";
-  // //hakim.color="Red";
-  // hakim.height=5.4;
-  // hakim.display();
-  // print(Human.department);
+  print("\n this is the hakim class");
+  Human hakim=Human();
+  hakim.name="Md hakim";
+  //hakim.color="Red";
+  hakim.height=5.4;
+  hakim.display();
+  print(Human.department);
 
-  // hakim.updateHeight();
-  // hakim.moving();
-  // Human.sleeping();
+  hakim.updateHeight();
+  hakim.moving();
+  Human.sleeping();
 
 }
-
-
-
-
 
 
 
