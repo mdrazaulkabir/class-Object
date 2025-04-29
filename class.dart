@@ -58,31 +58,32 @@ void main(){
 
   print("\nthis is hasan human class");
   Human hasan=Human();
-  print('you are ${hasan.name='md hasan'}');
-  print('you are ${hasan.age}');
-  print('you are ${hasan.cgp}');
-  print('you are ${hasan.color='white'}');
-  print('you are ${hasan.height=6.1}');
-  print("your are ${Human.department}");
+  print("your name ${hasan.name='md hasan'}");
+  print('your age ${hasan.age}');
+  print('your cgp ${hasan.cgp}');
+  print('your color ${hasan.color='white'}');
+  print('your height ${hasan.height=6.1}');
+  print("your department ${Human.department}");
   if (hasan.name!=null){
     hasan.moving();
   }
   else{print("you are not selected nay name:");}
   Human.sleeping();
+  hasan.updateHeight();
   
 
 
-  print("\n this is the hakim class");
-  Human hakim=Human();
-  hakim.name="Md hakim";
-  //hakim.color="Red";
-  hakim.height=5.4;
-  hakim.display();
-  print(Human.department);
+  // print("\n this is the hakim class");
+  // Human hakim=Human();
+  // hakim.name="Md hakim";
+  // //hakim.color="Red";
+  // hakim.height=5.4;
+  // hakim.display();
+  // print(Human.department);
 
-  hakim.updateHeight();
-  hakim.moving();
-  Human.sleeping();
+  // hakim.updateHeight();
+  // hakim.moving();
+  // Human.sleeping();
 
 }
 
@@ -113,7 +114,7 @@ class Human{
   static String department="computer science";
 
   updateHeight(){
-    double newHeight=6.1;
+    double newHeight=7.1;
     height=newHeight;
     print("this is the updated height:$height");
   }
