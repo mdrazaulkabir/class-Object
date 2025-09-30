@@ -5,6 +5,8 @@ The main purpose of OOP is to break complex problems into smaller objects.
 
 Advantages:
  *It is easy to understand and use.
+ *It increases reusability and decreases complexity.
+ *It reduces the repetition of code.
  *It makes the code easier to maintain, modify and debug.
  *OOP is based on objects, which are data structures containing data and methods.
 
@@ -48,12 +50,19 @@ void main(){
 
 // print('\nthis is the type of person class ');
 //   Person _person =Person();
-//   _person._name1="kabir";
+//   _person.name1="kabir";
 //   //_person._age=23;
-//   _person._cgp=3.9;
-//   print(_person._name1);
-//   print(_person._age);
-//   print(_person._cgp);
+//   _person.cgp=3.9;
+//   print(_person.name1);
+//   print(_person.age);
+//   print(_person.cgp);
+ 
+// that is the main of purpose of class reusability
+// "vvi" =>This is main of calss that you don't need to declare everytime time to data type 
+//       beacuse you already created one class there will be all datatupe blueprint. Now need 
+//       only object.  
+//   Person _person1 =Person();
+//   Person _person2 =Person();
 
 
   print("\nthis is hasan human class");
@@ -98,9 +107,9 @@ void main(){
 
 
 //   class Person{
-//   String? _name1;
-//   int? _age;
-//   double? _cgp;
+//   String? name1;
+//   int? age;
+//   double? cgp;
 // }
 
 
@@ -130,7 +139,8 @@ class Human{
   moving(){
     print("$name is moving");
   }
- static sleeping(){//static mathod cannot assign any variable in class properties 
+ static sleeping(){
+  //static mathod cannot assign any variable in class properties 
     print("he is sleeping");
   }
 }
