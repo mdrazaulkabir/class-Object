@@ -33,6 +33,17 @@ What is Object:
 Objects are created from templates called classes.(ক্লাস নামক টেমপ্লেট থেকে অবজেক্ট তৈরি করা হয়)
 
 
+Also,
+Class are "user-defined" data type that act as the blueprint for individual object.
+Object any class type variable.
+
+class Person{
+  String name;
+  int age;
+}
+Person person1=Person(),
+Person person2=Person(),
+
 */
 
 void main(){
