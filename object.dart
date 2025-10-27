@@ -1,10 +1,14 @@
 /*
+What is Class:
+A class is a blueprint for creating objects.(একটি ক্লাস হল বস্তু তৈরির জন্য একটি নীলনকশা)
+
+
 What is Object:
 Objects are created from templates called classes.(ক্লাস নামক টেমপ্লেট থেকে অবজেক্ট তৈরি করা হয়)
 
 Also,
-Class are "user-defined" data type that act as the blueprint for individual object.
-Object any class type variable.
+=> Class are "user-defined" data type that act as the blueprint for individual object.
+=> Object any class type variable.
 
 class Person{
   String name;

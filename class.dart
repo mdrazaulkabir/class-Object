@@ -34,8 +34,8 @@ Objects are created from templates called classes.(ক্লাস নামক 
 
 
 Also,
-Class are "user-defined" data type that act as the blueprint for individual object.
-Object any class type variable.
+=> Class are "user-defined" data type       that act as the blueprint for individual object.
+=> Object any class type variable.
 
 class Person{
   String name;
